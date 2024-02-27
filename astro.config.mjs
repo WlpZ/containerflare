@@ -4,7 +4,7 @@ import { defineConfig } from "astro/config";
 // https://astro.build/config
 export default defineConfig({
   publicDir: "./src/public",
-  site: `https://cfcr.dev`,
+  site: `https://cfcr.linuxcn.cn`,
   output: "server",
   adapter: cloudflare({
     mode: "directory",
